@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img1 from "../assets/img1";
+
 
 const Checkout = () => {
   const [saveDelivery, setSaveDelivery] = useState(false);
