@@ -1,23 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Volkhov:wght@400;700&family=Jost:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
+
+@utility container {
+	margin-inline: auto;
+	padding-inline: 1rem;
+}
 @theme {
-  --color-body:#140C1C;
-  --subheading-color:#8750F7;
-  --breakpoint-*: initial;
-  --breakpoint-sm: 40rem;
-  --breakpoint-md: 48rem;
-  --breakpoint-lg: 64rem;
-  --breakpoint-xl: 80rem;
-  --breakpoint-2xl: 84rem;
+	--color-body: #140c1c;
+	--subheading-color: #8750f7;
+
+	--breakpoint-*: initial;
+	--breakpoint-sm: 40rem;
+	--breakpoint-md: 48rem;
+	--breakpoint-lg: 64rem;
+	--breakpoint-xl: 80rem;
+	--breakpoint-2xl: 84rem;
+
+	--color-heading: #484848;
+	--color-paragraph: #8a8a8a;
+	--color-gold: #fca120;
+	--color-red: #ff4646;
+
+	--font-volkhov: "Volkhov", serif;
+	--font-poppins: "Poppins", sans-serif;
+	--font-jost: "Jost", sans-serif;
+
+	--breakpoint-*: initial;
+	--breakpoint-sm: 40rem;
+	--breakpoint-md: 48rem;
+	--breakpoint-lg: 64rem;
+	--breakpoint-xl: 82rem;
 }
-@utility container{
-  margin-inline:auto;
-  padding-inline:1rem;
+
+@layer base {
+	a {
+		@apply inline-block;
+	}
 }
-body{
-  background-color:white;
-  color:black;
-  font-family: "Noto Sans", sans-serif;}
+
+@layer utilities {
+	.active {
+		background-color: black;
+		color: white;
+	}
+}
+
+@utility comon_button_black {
+	@apply py-5 px-11.25 text-white bg-black rounded-[10px] font-poppins text-[16px] leading-[100%] shadow-none  transition-all duration-300 cursor-pointer;
+}
+body {
+	background-color: white;
+	color: black;
+	font-family: "Noto Sans", sans-serif;
+}
 
 /*::first-line{
 background: black;
@@ -29,4 +64,3 @@ cursor: pointer;
 display: flex;
 margin-top:6px
 }*/
-
