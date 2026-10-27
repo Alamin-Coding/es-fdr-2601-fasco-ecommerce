@@ -4,24 +4,24 @@ import HomePage from "./pages/HomePage";
 import ShopPage from "./pages/ShopPage";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Root/>,
-    children:[
-      {
-        index: true,
-        element: <HomePage/>
-      },
-      {
-        path: '/shop',
-        element: <ShopPage/>
-      }
-    ]
-  },
+	{
+		path: "/",
+		element: <Root />,
+		children: [
+			{
+				index: true,
+				element: <HomePage />,
+			},
+			{
+				path: "/shop",
+				element: <ShopPage />,
+			},
+		],
+	},
 ]);
 
 const App = () => {
-  return <RouterProvider router={router} />
-}
+	return <RouterProvider router={router} />;
+};
 
-export default App
+export default App;
