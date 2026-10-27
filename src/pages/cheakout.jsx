@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import img1 from "../assets/img1.png"
+import img2 from "../assets/img2.png"
 
 const Checkout = () => {
   const [saveDelivery, setSaveDelivery] = useState(false);
@@ -208,12 +209,12 @@ const Checkout = () => {
           <div className="relative min-h-[360px] flex items-center justify-center">
             {/* LEFT IMAGE: man in mustard coat — add your image here */}
             <div className="hidden md:block absolute left-0 bottom-0 w-[220px] h-[340px]">
-               <img src="img1" alt="Model in mustard coat" className="w-ful l h-full object-contain" /> 
+               <img src={img1} alt="Model in mustard coat" className="w-ful l h-full object-contain" /> 
             </div>
 
             {/* RIGHT IMAGE: woman in grey coat — add your image here */}
             <div className="hidden md:block absolute right-0 bottom-0 w-[220px] h-[340px]">
-              {/* <img src="" alt="Model in grey coat" className="w-full h-full object-contain" /> */}
+               <img src={img2} alt="Model in grey coat" className="w-full h-full object-contain" /> 
             </div>
 
             <div className="w-full max-w-[480px] text-center">
