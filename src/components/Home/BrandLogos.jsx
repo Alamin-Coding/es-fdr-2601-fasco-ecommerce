@@ -6,7 +6,7 @@ import Brandlogo5 from "../../assets/logo (4).svg"
 const BrandLogos = () => {
   return (
     <div className="py-[82px] px-[320px]">
-        <div className="flex gap-10 justify-center">
+        <div className="flex gap-1 justify-center">
             <img src={Brandlogo1} alt="logo"/>
             <img src={Brandlogo2} alt="logo"/>
             <img src={Brandlogo3} alt="logo"/>
