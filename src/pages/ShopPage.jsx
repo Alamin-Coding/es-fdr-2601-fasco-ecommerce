@@ -1,22 +1,19 @@
-import Header from "../components/Header"
-import FacilitySection from "../sections/FacilitySection"
-import FashionSection from "../sections/FashionSection"
+
+import FacilitySection from "../components/FacilitySection"
+import FashionSection from "../components/FashionSection"
 import Footer from "../sections/Footer"
-import InstagramGelary from "../sections/InstagramGelary"
-import PeakyBlinderSection from "../sections/PeakyBlinderSection"
-import SubscribeSection from "../sections/SubscribeSection"
+import InstagramGelary from "../components/InstagramGelary"
+import PeakyBlinderSection from "../components/PeakyBlinderSection"
+import SubscribeSection from "../components/SubscribeSection"
 
 const ShopPage = () => {
   return (
     <>
-    <Header/>
     <FashionSection/>
     <PeakyBlinderSection/>
     <FacilitySection/>
     <InstagramGelary/>
     <SubscribeSection/>
-    <Footer/>
-    
     </>
   )
 }

@@ -3,7 +3,7 @@ import logo from '../assets/FASCO.png'
 import { FaChevronDown } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <footer className="bg-white mb-40 mt-10">
+    <footer className="bg-white mt-10 pb-4">
       <div className="container border-t-4 border-paragraph">
         <div className="mt-8">
             <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 md:flex-row">

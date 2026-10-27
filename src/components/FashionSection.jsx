@@ -1,6 +1,6 @@
 import React from 'react'
-import ProductCart from "../components/ProductCart"
-import Sidebar from "../components/Sidebar"
+import ProductCart from "./ProductCart"
+import Sidebar from "./Sidebar"
 import shopImage from "../assets/shopImage.png"
 import { FaChevronRight } from "react-icons/fa";
 import { FaChevronDown } from "react-icons/fa6";

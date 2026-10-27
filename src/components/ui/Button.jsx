@@ -1,8 +1,8 @@
 
-const Button = ({text}) => {
+const Button = ({text, onSignup}) => {
   return (
     <div>
-       <button className="cursor-pointer rounded-md bg-black px-8 py-3 text-xs text-white shadow-lg">
+       <button onClick={onSignup} className="cursor-pointer rounded-md bg-black px-8 py-3 text-xs text-white shadow-lg">
            {text}
           </button>
     </div>

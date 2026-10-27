@@ -10,7 +10,7 @@ import instagram7 from "../assets/instagram7.png"
 
 const InstagramGelary = () => {
   return (
-    <section className="w-full bg-white">
+    <section className="w-full bg-white overflow-hidden">
 
       {/* Heading */}
       <div className=" container px-5 py-12 text-center">
