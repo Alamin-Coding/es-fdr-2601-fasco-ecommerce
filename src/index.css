@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@theme {
+  --color-body:#140C1C;
+  --subheading-color:#8750F7;
+  --breakpoint-*: initial;
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-2xl: 84rem;
+}
+@utility container{
+  margin-inline:auto;
+  padding-inline:1rem;
+}
+body{
+  background-color:white;
+  color:black;
+  font-family: "Noto Sans", sans-serif;}
+
+/*::first-line{
+background: black;
+color:white;
+border-radius: 10px;
+padding:12px 32px;
+align-items: center;
+cursor: pointer;
+display: flex;
+margin-top:6px
+}*/
+
